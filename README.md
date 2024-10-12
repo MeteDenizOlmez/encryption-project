@@ -2,7 +2,7 @@
 This is a small python program I made to test out cryptography.fernet as well as writing to, reading and editing data on files to create a program that can encrypt and decrpyt your files
 
 (View the full source code for a more detailed look)
-The fernet python module is an example of a "secret key" authenticated cryptography, it uses a 128-bit AES (faster than 256 bit as AES so far has not yet been able to be cracked...) and SHA256 encryption
+The fernet python module is an example of a "secret key" authenticated cryptography, it uses a 128-bit AES (faster than 256 bit as AES so far has not yet been able to be cracked...) and SHA256 hashing
 
 # How it works:
 1) Firstly, the user is met with an option at startup to either encrypt or decrypt
